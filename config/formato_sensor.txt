@@ -1,0 +1,10 @@
+{
+    "YOUNG": ["yng_gz"],
+    "MIROS": ["mir_gz", "mir2_gz"],
+    "FSI2D": ["fsi_gz"],
+    "FSI3D": ["fsi_gz"],
+    "ADCP": ["adc_gz"],
+    "RADAC": ["rdc_gz"],
+    "AQUADOPP": ["fsi_gz"],
+    "RFINDER": ["rgf_gz"]
+}
