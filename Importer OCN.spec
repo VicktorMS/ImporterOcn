@@ -3,10 +3,10 @@
 
 a = Analysis(
     ['main.py'],
-    pathex=['D:\Victor\Programming\Python\ImporterOCn'],
+    pathex=[],
     binaries=[],
     datas=[],
-    hiddenimports=[],
+    hiddenimports=['PyQt6'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='OCNImporter',
+    name='Importer OCN',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='assets\import_icon.png'
+    icon=['assets\\import_icon.ico'],
 )
