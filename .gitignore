@@ -1,3 +1,68 @@
-build/
-venv/
-dist/
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*~
+
+# Ignore build and distribution directories
+/build/
+/dist/
+/venv/
+
+# Ignore logging files
+*.log
+
+# Ignore virtual environment
+.venv/
+
+# Ignore binary files
+*.bin
+*.deb
+*.exe
+*.iso
+*.rpm
+*.tar.gz
+*.zip
+
+# Ignore user-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.tmp_attachment
+*.tmp_converted
+*.tmp_mhtml
+*.tmp_savepage
+*.tmp_sendpage
+*.crdownload
+*.part
+*~
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore testing and coverage reports
+htmlcov/
+.coverage
+.pytest_cache/
+cover/
+
+# Ignore documentation
+docs/build/
+docs/source/examples/
+docs/source/modules/
+docs/source/generated/
+
+# Ignore any local configuration files
+*.local.py
+*.local.ini
+*.local.cfg
+*.local.properties
+
+# Ignore .idea directory
+.idea/
+
+# Ignore .git directory
+.git/
