@@ -1,6 +1,8 @@
 # OCN Importer
 
 
+![Preview GIF](docs/project_preview.gif)
+
 O OCN Importer é uma ferramenta poderosa e fácil de usar para importar dados gerados por sensores meteoceanográficos diretamente para um banco de dados. Ideal para pesquisadores, engenheiros e profissionais que trabalham com dados meteoceanográficos, essa aplicação simplifica o processo de transferência de dados de forma eficiente e segura.
 
 ## Índice
